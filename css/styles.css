@@ -5,17 +5,17 @@ header {
     header div img {
       width: 100%;
       object-fit: cover; }
-  header nav {
-    height: 100%; }
-    header nav ul {
-      display: flex;
-      list-style: none;
-      gap: .9375rem;
-      font-size: 25px;
-      justify-content: space-around; }
-      header nav ul li a {
-        text-decoration: none;
-        color: black; }
+  header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+    font-size: 25px; }
+    header nav ul li a {
+      text-decoration: none;
+      color: black; }
 
 * {
   margin: 0;

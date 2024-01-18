@@ -9,15 +9,9 @@ header{
     }
 
     nav{
-        height: 100%;
         ul{
-            display: flex;
-            list-style: none;
-            gap: .9375rem;
+            @include lista-flex(row, space-around, center, 25px);
             font-size: 25px;
-            justify-content: space-around;
-
-            
             li{
                 
                 a{

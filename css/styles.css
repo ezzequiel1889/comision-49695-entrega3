@@ -1,10 +1,9 @@
 header {
-  background-color: #cccc87; }
+  background-color: rgba(204, 204, 135, 0.733); }
   header div {
     width: 3%; }
     header div img {
-      width: 100%;
-      object-fit: cover; }
+      width: 100%; }
   header nav ul {
     display: flex;
     flex-direction: row;
@@ -16,6 +15,8 @@ header {
     header nav ul li a {
       text-decoration: none;
       color: black; }
+      header nav ul li a:hover {
+        color: #888888; }
 
 * {
   margin: 0;
@@ -24,3 +25,22 @@ header {
 
 body {
   background-color: #f1f1d6; }
+
+main {
+  height: 825px; }
+
+.tienda {
+  background-image: url(/assets/tiendaderop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%; }
+
+footer {
+  text-align: center;
+  background-color: rgba(204, 204, 135, 0.733); }
+  footer img {
+    width: 1.875rem; }
+  footer div {
+    display: flex;
+    justify-content: space-between; }

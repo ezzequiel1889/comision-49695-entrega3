@@ -7,3 +7,16 @@
 body{
     background-color: map-get($color-fondo ,fondo2);
 }
+
+
+main{
+    height: 825px;
+}
+
+.tienda{
+    background-image: url(/assets/tiendaderop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}

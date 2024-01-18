@@ -1,0 +1,14 @@
+footer {
+    text-align: center;
+    background-color: map-get($color-fondo , fondo1);
+
+    img{
+        width: 1.875rem;
+        
+    }
+
+    div{
+        display: flex;
+        justify-content: space-between;
+    }
+}

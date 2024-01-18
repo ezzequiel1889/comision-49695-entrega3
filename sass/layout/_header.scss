@@ -10,7 +10,7 @@ header{
 
     nav{
         ul{
-            @include lista-flex(row, space-around, center, 25px);
+            @include lista-flex(row, center, center, 6.25rem);
             font-size: 25px;
             li{
                 

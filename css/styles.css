@@ -1,12 +1,13 @@
 header {
   background-color: rgba(204, 204, 135, 0.733);
-  display: flex; }
+  display: flex;
+  align-items: center; }
   header div {
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 10px;
-    width: 3%; }
+    width: 4%; }
     header div img {
       width: 100%; }
   header nav {
@@ -34,7 +35,7 @@ body {
   background-color: #f1f1d6; }
 
 main {
-  height: 825px; }
+  height: 50.4375rem; }
 
 .tienda {
   background-image: url(/assets/tiendaderop.jpg);

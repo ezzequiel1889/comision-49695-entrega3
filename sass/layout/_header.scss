@@ -1,12 +1,13 @@
 header{
     background-color: map-get($color-fondo ,fondo1 );
     display: flex;
+    align-items: center;
 
 
     div {
         @include centrar (center, center, center);
         font-size: 10px;
-        width: 3%;
+        width: 4%;
         img{
             width: 100%;            
         }

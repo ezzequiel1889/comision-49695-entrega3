@@ -1,22 +1,29 @@
 header {
-  background-color: rgba(204, 204, 135, 0.733); }
+  background-color: rgba(204, 204, 135, 0.733);
+  display: flex; }
   header div {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
     width: 3%; }
     header div img {
       width: 100%; }
-  header nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 6.25rem;
-    list-style: none;
-    font-size: 25px; }
-    header nav ul li a {
-      text-decoration: none;
-      color: black; }
-      header nav ul li a:hover {
-        color: #888888; }
+  header nav {
+    width: 100%; }
+    header nav ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 6.25rem;
+      list-style: none;
+      font-size: 25px; }
+      header nav ul li a {
+        text-decoration: none;
+        color: black; }
+        header nav ul li a:hover {
+          color: #888888; }
 
 * {
   margin: 0;
@@ -40,7 +47,7 @@ footer {
   text-align: center;
   background-color: rgba(204, 204, 135, 0.733); }
   footer img {
-    width: 1.875rem; }
+    width: 2.1875rem; }
   footer div {
     display: flex;
     justify-content: space-between; }

@@ -1,7 +1,11 @@
 header{
     background-color: map-get($color-fondo ,fondo1 );
+    display: flex;
+
+
     div {
-        
+        @include centrar (center, center, center);
+        font-size: 10px;
         width: 3%;
         img{
             width: 100%;            
@@ -9,6 +13,7 @@ header{
     }
 
     nav{
+        width: 100%;
         ul{
             @include lista-flex(row, center, center, 6.25rem);
             font-size: 25px;

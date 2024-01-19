@@ -6,3 +6,9 @@
     gap: $gap;
     list-style: none;
 };
+
+@mixin centrar ($justify, $align, $text) {
+    justify-content: $justify;
+    align-items: $align;
+    text-align: $text;
+};

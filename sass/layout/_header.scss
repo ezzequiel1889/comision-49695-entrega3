@@ -17,7 +17,7 @@ header{
         width: 100%;
         ul{
             @include lista-flex(row, center, center, 6.25rem);
-            font-size: 25px;
+            font-size: 1.5625rem;
             li{
                 
                 a{

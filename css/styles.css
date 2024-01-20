@@ -19,7 +19,7 @@ header {
       align-items: center;
       gap: 6.25rem;
       list-style: none;
-      font-size: 25px; }
+      font-size: 1.5625rem; }
       header nav ul li a {
         text-decoration: none;
         color: black; }
@@ -42,7 +42,17 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  display: grid; }
+  .tienda h2 {
+    transition: 1s;
+    font-size: 3.75rem;
+    color: rgba(182, 120, 50, 0.801);
+    background-color: rgba(0, 0, 0, 0.329); }
+    .tienda h2:hover {
+      color: white; }
 
 footer {
   text-align: center;

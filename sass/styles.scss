@@ -1,6 +1,13 @@
+/* variables, mixins, maps */
 @import "./utilities/maps";
 @import "./utilities/mixins";
 
+
+/* partials layout y base */
 @import "./layout/header";
 @import "./layout/main";
 @import "./layout/footer.scss";
+
+@import "../sass/layout/tiendaPartial/mainTienda";
+
+/* web design */

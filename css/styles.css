@@ -52,7 +52,7 @@ main {
     transition: 1s;
     font-size: 3.75rem;
     color: rgba(182, 120, 50, 0.801);
-    background-color: rgba(0, 0, 0, 0.329); }
+    background-color: rgba(0, 0, 0, 0.562); }
     .tienda h2:hover {
       color: rgba(255, 255, 255, 0.548); }
 
@@ -66,19 +66,47 @@ footer {
     justify-content: space-between; }
 
 main {
-  text-align: center; }
-  main h2 {
-    font-size: 2.8125rem; }
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+  main .titulo {
+    color: rgba(56, 56, 175, 0.849);
+    background-image: linear-gradient(to right top, #5e6426, #7a814f, #989f78, #b7bda2, #d8dcce);
+    font-size: 2.8125rem;
+    padding: .9375rem 0; }
 
 .cards {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   align-items: center;
-  height: 80%; }
-  .cards article img {
-    width: 200px; }
-  .cards article h3 {
-    font-size: 1.875rem; }
+  height: 80%;
+  background-color: rgba(204, 204, 135, 0.733); }
+  .cards .card1 {
+    background-image: linear-gradient(to bottom, #051937, #19485d, #50797b, #93aa9e, #d8dcce); }
+  .cards .card2 {
+    background-image: linear-gradient(to top, #051937, #19485d, #50797b, #93aa9e, #d8dcce); }
+  .cards .card3 {
+    background-image: linear-gradient(to bottom, #051937, #19485d, #50797b, #93aa9e, #d8dcce); }
+  .cards .card4 {
+    background-image: linear-gradient(to top, #051937, #19485d, #50797b, #93aa9e, #d8dcce); }
+  .cards article {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; }
+    .cards article img {
+      width: 12.5rem;
+      transition: all 0.5s; }
+      .cards article img:hover {
+        transform: scale(1.4); }
+    .cards article p {
+      color: #358f53;
+      font-size: 20px;
+      padding-bottom: 30px;
+      background-color: rgba(0, 0, 0, 0.562); }
+    .cards article h3 {
+      color: rgba(90, 73, 73, 0.795);
+      font-size: 1.875rem; }
 
 /* web design */

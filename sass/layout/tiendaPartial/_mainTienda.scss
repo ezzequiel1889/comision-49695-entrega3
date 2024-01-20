@@ -1,25 +1,66 @@
 
 main{
     text-align: center;
-
-    h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    .titulo{
+        color: $colorPri;
+        background-image: linear-gradient(to right top, #5e6426, #7a814f, #989f78, #b7bda2, #d8dcce);;
         font-size: 2.8125rem;
+        padding: .9375rem 0;
     }
 }
 
 .cards{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     height: 80%;
+    background-color: map-get($color-fondo , fondo1 );
+
+
+    .card1{
+        background-image: linear-gradient(to bottom, #051937, #19485d, #50797b, #93aa9e, #d8dcce);
+    }
+
+    .card2{
+        background-image: linear-gradient(to top, #051937, #19485d, #50797b, #93aa9e, #d8dcce);
+    }
+
+    .card3{
+        background-image: linear-gradient(to bottom, #051937, #19485d, #50797b, #93aa9e, #d8dcce);
+    }
+
+    .card4{
+        background-image: linear-gradient(to top, #051937, #19485d, #50797b, #93aa9e, #d8dcce);
+
+    }
 
     article{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        
         img{
-            width: 200px;
+            width: 12.5rem;
+            transition: all 0.5s;
+            &:hover{
+                transform: scale(1.4);
+            }
+        }
+
+        p{
+            color: $color4;
+            font-size: 20px;
+            padding-bottom: 30px;
+            background-color: map-get($color-fondo , fondo4 );
         }
 
         h3{
+            color: $colorSec;
             font-size: 1.875rem;
         }
     }

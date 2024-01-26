@@ -1,0 +1,36 @@
+section{
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    align-items: center;
+
+    
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+        
+    }
+    input{
+        text-align: center;
+        height: 1.875rem;
+    }
+
+    #enviar{
+        height: 3.125rem;
+        background-color: map-get($color-fondo , fondo1 );
+        border: .0625rem solid;
+
+        &:hover{
+            background-color: map-get($color-fondo , fondo3 );
+            
+        }
+    }
+
+    #mensaje{
+        height: 3.75rem;
+        
+    }
+}

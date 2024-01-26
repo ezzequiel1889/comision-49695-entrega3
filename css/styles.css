@@ -89,6 +89,10 @@ main {
     background-image: linear-gradient(to bottom, #051937, #19485d, #50797b, #93aa9e, #d8dcce); }
   .cards .card4 {
     background-image: linear-gradient(to top, #051937, #19485d, #50797b, #93aa9e, #d8dcce); }
+  .cards h3 {
+    transition: all 0.4s; }
+    .cards h3:hover {
+      transform: rotate(8deg); }
   .cards article {
     height: 100%;
     display: flex;
@@ -108,5 +112,27 @@ main {
     .cards article h3 {
       color: rgba(90, 73, 73, 0.795);
       font-size: 1.875rem; }
+
+section {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  align-items: center; }
+  section form {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem; }
+  section input {
+    text-align: center;
+    height: 1.875rem; }
+  section #enviar {
+    height: 3.125rem;
+    background-color: rgba(204, 204, 135, 0.733);
+    border: .0625rem solid; }
+    section #enviar:hover {
+      background-color: #aca9a9; }
+  section #mensaje {
+    height: 3.75rem; }
 
 /* web design */

@@ -4,12 +4,14 @@
 @import "./utilities/variables";
 
 /* partials layout y base */
-@import "./layout/header";
-@import "./layout/main";
-@import "./layout/footer.scss";
+@import "../sass/layout/indexPartial/header";
+@import "../sass/layout/indexPartial/main";
+@import "../sass/layout/indexPartial/footer.scss";
 
 @import "../sass/layout/tiendaPartial/mainTienda";
 
 @import "../sass/layout/contactoPartial/mainContacto";
+
+@import "../sass/layout/nosotrosPartial/mainNosotros";
 
 /* web design */

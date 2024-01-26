@@ -1,0 +1,58 @@
+
+
+.cuerpoNosotros{
+    h2{ 
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+    }
+}
+
+
+.cardNosotros{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 400px;
+        height:100% ;
+
+        h3{
+            font-size: 20px;
+            transition: all 0.7s;
+
+
+            &:hover{
+                background-color: map-get($color-fondo , fondo3 );
+                transform: scale(1.5);
+            }
+        }
+
+
+
+        img{
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            transition: all 1s;
+
+            &:hover{
+                transform: scale(1.3);
+            }
+        }
+
+        .cardArgentina{
+            background-color: red;
+            img{
+
+            }
+        }
+    }
+
+}

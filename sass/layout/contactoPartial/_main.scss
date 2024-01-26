@@ -1,3 +1,47 @@
+
+main{
+    
+    h2{
+       height: 150px;
+       width: 50%;
+       font-size: 40px;
+       color: $colorSec;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       animation-name: titulo;
+       animation-iteration-count: infinite;
+       animation-timing-function: ease-in-out;
+       animation-duration: 6s;
+       animation-delay: 1;
+    }
+
+    @keyframes titulo {
+        0%{
+            color: $colorPri;
+        }
+        10%{
+            color: $colorSec;
+            font-size: 35px;
+        }
+        25%{
+            color: $colorPri;
+            transform: rotate(5deg);
+        }
+        50%{
+            color: $colorSec;
+            font-size: 40px;
+        }
+        75%{
+            color: $colorPri;
+
+            transform: rotate(-5deg);
+        }
+        100%{
+            color: $colorSec;
+        }
+    }
+}
 section{
     width: 100%;
     height: 100%;

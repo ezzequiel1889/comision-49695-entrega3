@@ -65,12 +65,12 @@ footer {
     display: flex;
     justify-content: space-between; }
 
-main {
+.tiendaCuerpo {
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: space-around; }
-  main .titulo {
+  .tiendaCuerpo .titulo {
     color: rgba(56, 56, 175, 0.849);
     background-image: linear-gradient(to right top, #5e6426, #7a814f, #989f78, #b7bda2, #d8dcce);
     font-size: 2.8125rem;
@@ -113,8 +113,8 @@ main {
       color: rgba(90, 73, 73, 0.795);
       font-size: 1.875rem; }
 
-main h2 {
-  height: 150px;
+.tituloContacto {
+  height: 50px;
   width: 50%;
   font-size: 40px;
   color: rgba(90, 73, 73, 0.795);
@@ -145,26 +145,29 @@ main h2 {
   100% {
     color: rgba(90, 73, 73, 0.795); } }
 
-section {
+.cuerpoContacto {
   width: 100%;
   height: 100%;
   display: grid;
   grid-template-columns: 6fr 6fr;
   align-items: center; }
-  section form {
+  .cuerpoContacto form {
     display: flex;
     flex-direction: column;
     gap: 2.5rem; }
-  section input {
-    text-align: center;
-    height: 1.875rem; }
-  section #enviar {
-    height: 3.125rem;
-    background-color: rgba(204, 204, 135, 0.733);
-    border: .0625rem solid; }
-    section #enviar:hover {
-      background-color: #aca9a9; }
-  section #mensaje {
-    height: 3.75rem; }
+    .cuerpoContacto form input {
+      text-align: center;
+      height: 1.875rem; }
+    .cuerpoContacto form #enviar {
+      height: 3.125rem;
+      background-color: rgba(204, 204, 135, 0.733);
+      border: .0625rem solid; }
+      .cuerpoContacto form #enviar:hover {
+        background-color: #aca9a9; }
+    .cuerpoContacto form #mensaje {
+      height: 3.75rem; }
+  .cuerpoContacto .ubicacion {
+    display: flex;
+    justify-content: center; }
 
 /* web design */

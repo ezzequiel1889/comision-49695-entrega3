@@ -24,7 +24,7 @@
         }
         25%{
             color: $colorPri;
-            transform: rotate(5deg);
+            transform: rotate(4 deg);
         }
         50%{
             color: $colorSec;
@@ -33,7 +33,7 @@
         75%{
             color: $colorPri;
 
-            transform: rotate(-5deg);
+            transform: rotate(-4 deg);
         }
         100%{
             color: $colorSec;

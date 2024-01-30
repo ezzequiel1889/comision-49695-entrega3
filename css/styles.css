@@ -212,7 +212,43 @@ footer {
 @media (max-width: 650px) {
   header {
     height: 3.5rem; }
-    header div {
-      display: none; } }
+  .logo {
+    transition: 0.6s;
+    display: none; }
+  nav ul li a {
+    transition: 0.6s;
+    font-size: 20px; } }
+
+@media (max-width: 557px) {
+  header nav ul {
+    transition: 0.6s;
+    gap: 45px; }
+    header nav ul li a {
+      font-size: 25px; } }
+
+@media (max-width: 449px) {
+  header nav ul {
+    gap: 30px; }
+    header nav ul li a {
+      font-size: 22px; } }
+
+@media (max-width: 498px) {
+  .tienda h2 {
+    font-size: 3.125rem; } }
+
+@media (max-width: 428px) {
+  .tienda h2 {
+    font-size: 42px; } }
+
+@media (max-width: 373px) {
+  header nav ul {
+    gap: 16px; }
+    header nav ul li a {
+      font-size: 22px; }
+      header nav ul li a:hover {
+        transition: border 0.5s, border-radius 0.5s background-color 0.7s;
+        background-color: rgba(226, 185, 109, 0.479);
+        border-radius: 10px;
+        border: 1px solid black; } }
 
 /* web design */

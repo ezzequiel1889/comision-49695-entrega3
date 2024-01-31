@@ -14,13 +14,11 @@
         height: 3.5rem;
        }
 
-       
         .logo{
             transition: 0.6s;
             display: none;
         }
         
-
         nav{
             ul{
                 li{
@@ -32,8 +30,6 @@
             } 
         }  
     }
-
-
 
 
 @media (max-width: 557px) {
@@ -88,10 +84,10 @@
     header{
         nav{
             ul{
-                gap: 16px;
+                gap: 22px;
                 li{
                     a{
-                        font-size: 22px;
+                        font-size: 18px;
 
                         &:hover{
                             transition: border 0.5s, border-radius 0.5s background-color 0.7s ;

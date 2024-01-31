@@ -242,13 +242,29 @@ footer {
 
 @media (max-width: 373px) {
   header nav ul {
-    gap: 16px; }
+    gap: 22px; }
     header nav ul li a {
-      font-size: 22px; }
+      font-size: 18px; }
       header nav ul li a:hover {
         transition: border 0.5s, border-radius 0.5s background-color 0.7s;
         background-color: rgba(226, 185, 109, 0.479);
         border-radius: 10px;
         border: 1px solid black; } }
+
+@media (max-width: 808px) {
+  .tiendaCuerpo .cards {
+    transition: 0.5s;
+    display: grid;
+    flex-wrap: wrap;
+    width: 100%;
+    overflow: scroll;
+    padding: 20px;
+    gap: 30px; } }
+
+@media (max-width: 768px) {
+  header {
+    height: 3.5rem; }
+    header div img {
+      display: none; } }
 
 /* web design */

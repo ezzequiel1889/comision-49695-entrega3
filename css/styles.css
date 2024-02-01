@@ -287,17 +287,14 @@ footer {
     display: flex;
     flex-direction: column; }
     .cuerpoContacto form {
+      gap: 20px;
       width: 600px; }
       .cuerpoContacto form input {
         width: 100%; }
   .ubicacion {
-    margin-bottom: 250px;
-    height: 200px;
-    width: 600px; }
-    .ubicacion:hover {
-      border: 2px solid black; }
-  footer {
-    margin-top: 130px; } }
+    margin-bottom: 280px;
+    height: 270px;
+    width: 100%; } }
 
 @media (max-width: 602px) {
   form {

@@ -27,6 +27,7 @@
         display: flex;
         flex-direction: column;
         form{
+            gap: 20px;
             width: 600px;
             input{
                 width: 100%;
@@ -35,18 +36,13 @@
     }
 
     .ubicacion{
-        margin-bottom: 250px;
-        height: 200px;
-        width: 600px;
-        &:hover{
-            border: 2px solid black;
-        }
+        margin-bottom: 280px;
+        height: 270px;
+        width: 100%;
     }
     
     
-    footer{
-        margin-top: 130px;
-    }
+
 };
 
 @media (max-width:602px){

@@ -366,25 +366,39 @@ footer {
 
 @media (max-width: 1254px) {
   .cuerpoNosotros h2 {
-    padding: 5px; }
+    display: none; }
   .cardNosotros {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 700px;
-    gap: 40px;
-    overflow: scroll;
-    background-color: rgba(204, 204, 135, 0.733); }
+    height: 1000;
+    gap: .625rem;
+    overflow-x: scroll;
+    background-color: rgba(204, 204, 135, 0.733);
+    margin-top: 1.875rem; }
     .cardNosotros div {
-      display: flex;
       align-items: center;
-      width: 80%;
-      height: 100%; }
+      width: 70%;
+      height: 6.25rem; }
+      .cardNosotros div h3 {
+        padding-top: 30px;
+        font-size: 20px; }
+      .cardNosotros div p {
+        padding-bottom: 20px;
+        font-size: 12px; }
       .cardNosotros div img {
-        height: 200px;
-        width: 300px;
+        height: 12.5rem;
+        width: 18.75rem;
         scale: 0.6; } }
+
+@media (max-width: 360px) {
+  .cardNosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: end; }
+    .cardNosotros .cardArgentina h3 {
+      margin-top: 30px; }
+      .cardNosotros .cardArgentina h3:hover {
+        transform: scale(0.1); } }
 
 /* web design */

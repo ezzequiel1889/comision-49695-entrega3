@@ -15,6 +15,7 @@
         gap: 40px;
         overflow: scroll;
         background-color: map-get($color-fondo , fondo1 );
+        
         div{
             display: flex;
             align-items: center;
@@ -23,10 +24,10 @@
             img{
                 height: 200px;
                 width: 300px;
+                scale: 0.6;
             }
         }
 
-        .cardCliente{
-        }
+
     }
 }

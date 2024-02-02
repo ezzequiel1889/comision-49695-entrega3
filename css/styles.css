@@ -384,6 +384,7 @@ footer {
       height: 100%; }
       .cardNosotros div img {
         height: 200px;
-        width: 300px; } }
+        width: 300px;
+        scale: 0.6; } }
 
 /* web design */

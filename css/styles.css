@@ -371,7 +371,7 @@ footer {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 1000;
+    height: 800px;
     gap: .625rem;
     overflow-x: scroll;
     background-color: rgba(204, 204, 135, 0.733);
@@ -381,24 +381,43 @@ footer {
       width: 70%;
       height: 6.25rem; }
       .cardNosotros div h3 {
-        padding-top: 30px;
         font-size: 20px; }
+        .cardNosotros div h3:hover {
+          background-color: #aca9a9;
+          scale: 0.9; }
       .cardNosotros div p {
         padding-bottom: 20px;
-        font-size: 12px; }
+        font-size: 20px; }
       .cardNosotros div img {
         height: 12.5rem;
         width: 18.75rem;
         scale: 0.6; } }
 
+@media (max-width: 908px) {
+  .cardNosotros div p {
+    font-size: 15px; } }
+
+@media (max-width: 578px) {
+  .cardNosotros div p {
+    font-size: 12px; } }
+
+@media (max-width: 408px) {
+  .cardNosotros #cardEnvios h3 {
+    font-size: 17px; }
+    .cardNosotros #cardEnvios h3:hover {
+      background-color: rgba(240, 255, 255, 0); } }
+
 @media (max-width: 360px) {
-  .cardNosotros {
-    display: flex;
-    flex-direction: column;
-    align-items: end; }
-    .cardNosotros .cardArgentina h3 {
-      margin-top: 30px; }
-      .cardNosotros .cardArgentina h3:hover {
-        transform: scale(0.1); } }
+  .cardNosotros div h3 {
+    font-size: 15px; }
+    .cardNosotros div h3:hover {
+      background-color: rgba(240, 255, 255, 0);
+      scale: 1; }
+  .cardNosotros .cardArgentina h3 {
+    padding-top: 40px; } }
+
+@media (max-width: 325px) {
+  .cardNosotros .cardCliente h3 {
+    padding-top: 15px; } }
 
 /* web design */

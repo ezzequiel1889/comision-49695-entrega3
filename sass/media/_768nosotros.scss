@@ -4,25 +4,31 @@
         h2{
             display: none;
         }
+
     }
+
+
     .cardNosotros{
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 1000;
+        height: 800px;
         gap: .625rem;
         overflow-x: scroll;
         background-color: map-get($color-fondo , fondo1 );
         margin-top: 1.875rem;
         div{
             h3{
-                padding-top: 30px;
                 font-size: 20px;
+                &:hover{
+                    background-color: map-get($color-fondo , fondo3 );
+                    scale: 0.9;
+                }
             }
 
             p{
                 padding-bottom:20px ;
-                font-size: 12px;
+                font-size: 20px;
             }
 
             align-items: center;
@@ -39,19 +45,68 @@
     }
 }
 
+
+@media (max-width: 908px){
+    .cardNosotros{
+        div{
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+@media (max-width: 578px){
+    .cardNosotros{
+        div{
+            p{
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media (max-width:408px){
+    .cardNosotros{
+        #cardEnvios{
+            h3{
+                font-size: 17px;
+                &:hover{
+                    background-color: rgba(240, 255, 255, 0);
+                }
+            }
+        }
+    }
+}
+
+
 @media (max-width: 360px){
     .cardNosotros{
-        display: flex;
-        flex-direction: column;
-        align-items: end;
         div{
+            h3{
+                font-size: 15px;
+                &:hover{
+                    background-color: rgba(240, 255, 255, 0);
+                    scale: 1;
+                }
+            }
         }
+
+
+
         .cardArgentina{
             h3{
-                margin-top: 30px;
-                &:hover{
-                    transform: scale(0.1);
-                }
+                padding-top: 40px;
+            }
+        }
+    }
+}
+
+@media (max-width: 325px){
+    .cardNosotros{
+        .cardCliente{
+            h3{
+                padding-top: 15px;
             }
         }
     }

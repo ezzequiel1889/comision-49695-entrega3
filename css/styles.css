@@ -40,7 +40,7 @@ main {
   height: 50.4375rem; }
 
 .tienda {
-  background-image: url(../assets/tiendaderop.jpg);
+  background-image: url(..../assets/tiendaderop.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;

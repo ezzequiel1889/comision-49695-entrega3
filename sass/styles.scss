@@ -4,23 +4,23 @@
 @import "./utilities/variables";
 
 /* partials layout y base */
-@import "../sass/layout/indexPartial/header";
-@import "../sass/layout/indexPartial/main";
-@import "../sass/layout/indexPartial/footer.scss";
+@import "./layout/indexPartial/header";
+@import "./layout/indexPartial/main";
+@import "./layout/indexPartial/footer.scss";
 
-@import "../sass/layout/tiendaPartial/mainTienda";
+@import "./layout/tiendaPartial/mainTienda";
 
-@import "../sass/layout/contactoPartial/mainContacto";
+@import "./layout/contactoPartial/mainContacto";
 
-@import "../sass/layout/nosotrosPartial/mainNosotros";
+@import "./layout/nosotrosPartial/mainNosotros";
 
 
 /* media */
 
-@import "./media/768Index";
-@import "./media/768Tienda";
-@import "./media/768contacto";
-@import "./media/768nosotros";
+@import "./media/mediaIndex";
+@import "./media/mediaTienda";
+@import "./media/mediaContacto";
+@import "./media/mediaNosotros";
 
 
 
